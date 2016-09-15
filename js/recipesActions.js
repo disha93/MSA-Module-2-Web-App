@@ -10,8 +10,6 @@ function loadTopRatedRecipes() {
 		headers: {
 			'Access-Control-Allow-Origin': '*',
 			'Ocp-Apim-Subscription-Key': 'bf04268391ac462acdd61749bc647c6b'},
-			
-	}
 		type: "GET",
 		success: function(data){
 			showRecipes(data);
