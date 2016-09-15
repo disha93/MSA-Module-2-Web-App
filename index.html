@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--Boostrap's CSS-->
+    <!--link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css"-->
+    <!--Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+	<title>Page Title</title>
+</head>
+
+
+<body>
+
+	<div id="foodIcon">
+		<img id="mainIcon" src="./Images/food4.png.gif" class="imageIcon" height="250" width="250">
+	</div>
+
+
+	<!--div id="searchBox">
+			<input type="search" name="searchText" id="searchText" placeholder="Search"/>
+			<input type="button" name="searchButton" id="searchButton"></a>
+	</div-->
+
+    <!--Custom Script-->
+    <script src="./js/recipesActions.js"></script>
+	<div id="recipeResults">
+		<script>
+			window.onload = loadTopRatedRecipes;
+		</script>
+	</div>
+
+
+	<!--jQuery Script-->
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!--Bootstrap Script-->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!--Custom Script-->
+    <script src="./js/recipesActions.js"></script>
+
+</body>
+
+</html>

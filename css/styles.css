@@ -1,0 +1,84 @@
+
+html { 
+    background: url('/Images/food-background.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    size:100%;
+    width: 100%;
+}
+
+body {
+position: relative;
+}
+
+/*searchBox css*/
+#searchBox {
+    width: 75%;
+    margin: auto;
+	display: block;
+}
+
+#searchText{
+    width: 25%;
+    padding: 15px 0 15px 20px;
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    border: 0 none;
+    height: 5%;
+    margin-right: 0;
+    color: gray;
+    outline: none;
+    float: left;
+    box-sizing: border-box;
+    transition: all 0.15s;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: gray;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: gray;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: gray;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: gray;
+}
+#searchText:focus {
+    background: white;
+}
+#searchButton {
+    border: 0 none;
+    background: white url('/Images/search1.png') center no-repeat;
+    width: 60px;
+    float: left;
+    padding: 0;
+    text-align: center;
+    height: 48px;
+    cursor: pointer;
+}
+
+/*food icon css*/
+#foodIcon {
+	/*width: 75%;
+	margin: auto;
+	float: center;*/
+    position: relative;
+    margin: auto;
+}
+
+/*
+.imageIcon {
+	display: block;
+	padding-bottom: 15px;
+}*/
+
+#mainIcon {
+    opacity: 0.75;
+    filter: alpha(opacity=75); /* For IE8 and earlier */
+    position: absolute;
+    top: 50%;
+}
+
