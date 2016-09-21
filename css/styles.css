@@ -17,7 +17,7 @@ position: relative;
 #searchBox {
     width: 75%;
     margin: auto;
-	display: block;
+    display: block;
 }
 
 #searchText{
@@ -69,11 +69,11 @@ position: relative;
     margin: auto;
 }
 
-/*
+
 .imageIcon {
 	display: block;
 	padding-bottom: 15px;
-}*/
+}
 
 #mainIcon {
     opacity: 0.75;
