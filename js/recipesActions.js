@@ -5,7 +5,7 @@ function retrieveDisplayRecipes() {
 
 function loadTopRatedRecipes() {
 	$.ajax({
-		url: 'http://food2fork.com/api/search?key=bf04268391ac462acdd61749bc647c6b',
+		url: 'http://food2fork.com/api/search?',
 		dataType: 'json',
 		headers: {
 			'Access-Control-Allow-Origin': '*',
